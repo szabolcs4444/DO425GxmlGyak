@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE iskola SYSTEM "iskola.dtd" >
+<iskola>
+
+<tanar id = "T1">
+<nev>Horvát Béla</nev>
+<szak>Matematika</szak>
+</tanar>
+<tanar id = "T2">
+<nev> Lakatos Ferenc</nev>
+<szak>Technika</szak>
+
+</tanar>
+
+<tantargy kod ="O1" oktato="T1">
+<tnev>Lineáris Algebra</tnev>
+<osztaly>8C</osztaly>
+</tantargy>
+
+</iskola>

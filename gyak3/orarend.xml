@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orarend SYSTEM "orarend.dtd">
+<orarend>
+	<ora id="O1" tipus="T01">
+	<targy>Szoftvertesztelés</targy>
+	
+	<idopont>
+	<nap> Hétfő </nap>
+	<tol>8</tol>
+	<ig>10</ig>
+	
+	</idopont>
+	<helyszin>In/103 In I. em. 103</helyszin>
+	<oktato> Tompa Tamás</oktato>
+	<szak >Mérnökinformatikus</szak>
+	</ora>
+	<ora id ="O2" tipus="T02">
+	<targy> Mobil programozási alapok"</targy>
+	
+	<idopont>
+	<nap>Hétfő</nap> 
+	<tol> 11</tol>
+	<ig>13</ig>
+	
+	</idopont>
+	<helyszin>In/101 In I.e. 101</helyszin>
+	<oktato>"Agárdi Anita</oktato>
+	<szak>Mérnökinformatikus</szak>
+	</ora>
+	<ora id ="O3" tipus="T03">
+	<targy>Korszerű információs tech</targy>
+	<idopont>
+	<nap>Hétfő</nap>
+	<tol>13</tol>
+	<ig>15</ig>
+	
+	</idopont>
+	<helyszin>In/101 In. I.e.101</helyszin>
+	<oktato> Soós Róbert</oktato>
+	<szak>Mérnökinformatikus</szak>
+	</ora>
+	<ora id = "O4" tipus="T04">
+	<targy>Oracle rendszergazda	</targy>
+	<idopont>
+	<nap>Hétfő"</nap>
+	<tol> 15 </tol>
+	<ig>17</ig>
+	
+	</idopont>
+	<helyszin>In/202 In II.em.202</helyszin>
+	<oktato>Dr. Kovács László</oktato>
+	<szak>Mérnökinformatikus</szak>
+	</ora>
+	<ora id ="O5" tipus="T05">
+	<targy> Mobil programozási alapok</targy>
+	<idopont>
+	<nap>Hétfő</nap>
+	<tol>17</tol>
+	<ig>19</ig>
+	
+	</idopont>
+	<helyszin>In/101 In I.e. 101</helyszin>
+	<oktato>Agárdi Anita</oktato>
+	<szak>Mérnökinformatikus</szak>
+	</ora>
+	
+	<ora id="O6" tipus="T06">
+	<targy>Oracle rendszergazda	</targy>
+	<idopont>
+	<nap>Kedd</nap>
+	<tol>8</tol>
+	<ig>10</ig>
+	
+	</idopont>
+	<helyszin>In/202 In II.em.202</helyszin>
+	<oktato>Bulla Dávid</oktato>
+	<szak>Mérnökinformatikus</szak>
+	</ora>
+	<ora id="O7" tipus="T07">
+	<targy>Korszerű információs tech </targy>
+	<idopont>
+	<nap>Kedd</nap>
+	<tol>10</tol>
+	<ig>12</ig>
+	
+	</idopont>
+	<helyszin>A1/220 A1 II.em.220</helyszin>
+	<oktato>Árvai László</oktato>
+	<szak>Mérnökinformatikus</szak>
+	</ora>
+	<ora id="O8" tipus="T08">
+	<targy>Adatkezelés XML-ben	</targy>
+	<idopont>
+	<nap>Kedd</nap>
+	<tol>12</tol>
+	<ig>14</ig>
+	
+	</idopont>
+	<helyszin>XXXVII A3 A5 között</helyszin>
+	<oktato>Dr. Bednarik László</oktato>
+	<szak>Mérnökinformatikus</szak>
+	</ora>
+	<ora id ="O9" tipus="T09">
+	<targy>Idegennyelv 1 </targy>
+	<idopont>
+	<nap>Kedd</nap>
+	<tol>16</tol>
+	<ig>18</ig>
+	
+	</idopont>
+	<helyszin>A1/11</helyszin>
+	<oktato>Pásztor Krisztina</oktato>
+	<szak>Mérnökinformatikus</szak>
+	</ora>
+	<ora id ="O10" tipus="T10">
+	<targy>Integrált Vállalati Rendszerek </targy>
+	<idopont>
+	<nap>Szerda</nap>
+	<tol>12</tol>
+	<ig>14</ig>
+	
+	</idopont>
+	<helyszin>A1/319</helyszin>
+	<oktato>Dr. Samad Dadvandipour</oktato>
+	<szak>Mérnökinformatikus</szak>
+	</ora>
+	<ora id="O11" tipus="T11">
+	<targy>Integrált Vállalati Rendszerek </targy>
+	<idopont>
+	<nap>Szerda</nap>
+	<tol>14</tol>
+	<ig>16</ig>
+	
+	</idopont>
+	<helyszin>In/15</helyszin>
+	<oktato>Dr. Bikfalvi Péter</oktato>
+	<szak>Mérnökinformatikus</szak>
+	</ora>
+	<ora id="O12" tipus="T12">
+	<targy>Adatkezelés XML-ben </targy>
+	<idopont>
+	<nap>Csütörtök</nap>
+	<tol>12</tol>
+	<ig>14</ig>
+	
+	</idopont>
+	<helyszin>In/103</helyszin>
+	<oktato>Dr. Bednarik László</oktato>
+	<szak>Mérnökinformatikus</szak>
+	</ora>
+		
+	</orarend>

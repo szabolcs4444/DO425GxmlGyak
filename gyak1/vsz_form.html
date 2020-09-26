@@ -1,0 +1,39 @@
+<html lang="hu">
+<head> 
+ <title> Feladat  </title> 
+ <meta charset="UTF-8">        
+ 	<style>
+	#example{
+	background-color: dodgerblue;
+  width: 50%;
+  border: 15px dodgerblue;
+  padding: 15px;
+  margin: auto;
+  
+	
+	}
+	
+	</style>
+	
+ 
+</head>
+<body>
+	<div id = "example">
+  <form action="vsz_feldolgozo.php" method="get">
+  Név: <input type="text" name="nev" value="" placeholder="Írd be a neved"  > <br><br>	
+  Pin kód: <input type="password" name="pin" value="" placeholder="Írd be a PIN kódod" > <br><br>
+  Kedvenc gyümölcs: <input type="text" name="gyumolcs" value=""   > <br><br>
+  Életkor: <input type="number" name="kor" value=""  > <br><br>
+  Lábméret: <input type="number" name="meret" value=""   > <br><br>
+  Önbizalom:  0 <input type="range" name="range" min="0" max="100" value="0"> 100
+  <br>
+  <br>
+  <input type="submit" name="kuld" value="Elküldöm">   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+  
+  
+  
+  <input type="submit" name="kuldd" value="Elküldöm ellenörzés nélkül">
+  
+  </div>
+</body>
+</html>

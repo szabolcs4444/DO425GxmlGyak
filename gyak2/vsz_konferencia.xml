@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<konferencia>
+	<cím id="123456" nev ="asd">
+	</cím>
+
+
+	<hallgatók id="123" nev="aaa">
+		<hallgato>
+		<nev id="asd_123" nev="asd"/>
+		<lakcim id="3752" nev = "szendro"/>
+		
+		
+		</hallgato>
+	</hallgatók>
+
+	<helyszin id="a" nev="k">
+	
+	</helyszin>
+
+	<eloado id="eloado_1" nev= "eloado1">
+	<nev id="eloado_2" nev = "a"/>
+	<lakcim id="a1" nev="fg"/>
+	<adoszam id="a2" nev="hl"/>
+	
+	</eloado>
+
+	<datum id="12" datum="1979.01.01"/>
+	
+	
+	
+</konferencia>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE adatbazis SYSTEM "adatbazis.dtd" >
+<adatbazis>
+<dolgozo id="T1">
+<kod>K1</kod>
+<nev>Tóth Lajos</nev>
+<fizetes>15000</fizetes>
+
+</dolgozo>
+<dolgozo id="T2">
+<kod>K2</kod>
+<nev>Molnár István</nev>
+<fizetes>15000</fizetes>
+
+</dolgozo>
+
+</adatbazis>
