@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ember.xsd">
+	<nev1>Virág Szabolcs</nev1>
+	<fizetes>100000</fizetes>
+	<nev>Kiss Lackó</nev>
+</ember>

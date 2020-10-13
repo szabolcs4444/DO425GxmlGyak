@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="nevjegykartya.xsd">
+	<nevjegykartya id="n1">
+		<nev>Virág Szabolcs</nev>
+		<ceg>
+			<cim>
+				<iranyitoszam>6700</iranyitoszam>
+				<varos>Szeged</varos>
+				<utca>Fő </utca>
+				<hazszam>11</hazszam>
+			</cim>
+			<nev>Virág József</nev>
+			<telefonszam korzet="36">303973853</telefonszam>
+			<weblap>www.cegvezeto.hu</weblap>
+		</ceg>
+		<beosztas>Boss</beosztas>
+		<telefonszam korzet="36">305963355</telefonszam>
+		<email>vezeto@gmail.com</email>
+	</nevjegykartya>
+</nevjegykartyak>

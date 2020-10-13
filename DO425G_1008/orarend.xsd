@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsa:schema xmlns:xsa="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<xsa:element name="orarend">
+		<xsa:complexType>
+			<xsa:sequence>
+				<xsa:element minOccurs="0" maxOccurs="unbounded" name="ora">
+					<xsa:complexType>
+						<xsa:sequence>
+							<xsa:element name="targy" type="xsa:string" />
+							<xsa:element name="idopont">
+								<xsa:complexType>
+									<xsa:sequence>
+										<xsa:element name="nap" type="napTipus" />
+										<xsa:element name="tol" type="idoTipus" />
+										<xsa:element name="ig" type="idoTipus" />
+									</xsa:sequence>
+								</xsa:complexType>
+							</xsa:element>
+
+							<xsa:element name="helyszin" type="xsa:string" />
+							<xsa:element name="oktato" type="xsa:string" />
+							<xsa:element name="szak" type="xsa:string" />
+						</xsa:sequence>
+						<xsa:attribute name="id" type="xsa:ID" />
+						<xsa:attribute name="tipus" type="oraTipus" default="előadás" />
+					</xsa:complexType>
+				</xsa:element>
+			</xsa:sequence>
+		</xsa:complexType>
+	</xsa:element>
+	<xsa:simpleType name="oraTipus">
+		<xsa:restriction base="xsa:string">
+			<xsa:enumeration value="előadás" />
+			<xsa:enumeration value="gyakorlat" />
+		</xsa:restriction>
+	</xsa:simpleType>
+	<xsa:simpleType name="napTipus">
+		<xsa:restriction base="xsa:string">
+			<xsa:enumeration value="Hétfő" />
+			<xsa:enumeration value="Kedd" />
+			<xsa:enumeration value="Szerda" />
+			<xsa:enumeration value="Csütörtök" />
+			<xsa:enumeration value="Péntek" />
+		</xsa:restriction>
+	</xsa:simpleType>
+	<xsa:simpleType name="idoTipus">
+		<xsa:restriction base="xsa:positiveInteger">
+			<xsa:minInclusive value="8" />
+			<xsa:maxInclusive value="19" />
+		</xsa:restriction>
+	</xsa:simpleType>
+</xsa:schema>
