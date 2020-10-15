@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ER xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ERkonvSchema.xsd">
+	<Entity name="A">
+		<attribute name="a" value="primaryKey" />
+		<attribute name="b" value="multivalued">
+			<attribute name="x" />
+			<attribute name="y" />
+		</attribute>
+		<attribute name="c" value="composit">
+			<attribute name="" />
+			<attribute name="" />
+		</attribute>
+	</Entity>
+	<Entity name="B">
+		<attribute name="a" value="primaryKey" />
+		<attribute name="b" value="composit">
+			<attribute name="x" />
+			<attribute name="y" />
+		</attribute>
+	</Entity>
+	<Entity name="C">
+		<attribute name="a" value="primaryKey" />
+		<attribute name="b" />
+	</Entity>
+	<relation>
+		<attribute name="c" />
+		<member name="A" />
+		<member name="B" />
+		<cardinatlity>
+			<card name="a" value="many" />
+			<card name="b" value="many" />
+		</cardinatlity>
+	</relation>
+
+	<relation>
+		<member name="B" />
+		<member name="C" />
+		<cardinatlity>
+			<card name="b" value="many" />
+			<card name="c" value="one" />
+		</cardinatlity>
+
+	</relation>
+</ER>
