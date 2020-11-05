@@ -1,4 +1,4 @@
-package dom425g;
+package domdo425g;
 
 import java.io.File;
 import java.io.IOException;
