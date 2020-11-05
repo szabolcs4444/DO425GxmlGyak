@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE iskola [
 <!ELEMENT iskola (tanar+, tantargy+)>
 <!ELEMENT tanar (nev,szak)>
 <!ATTLIST tanar id ID #REQUIRED>
@@ -10,6 +10,6 @@
 <!ATTLIST tantargy oktato IDREF #IMPLIED>
 <!ELEMENT tnev (#PCDATA)>
 <!ELEMENT osztaly (#PCDATA)>
-
+]>
 
 

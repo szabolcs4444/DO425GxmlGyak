@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE orarend[
 <!ELEMENT orarend (ora+)>
 <!ELEMENT ora (targy,idopont+,helyszin,oktato,szak)>
 <!ATTLIST ora id ID #REQUIRED>
@@ -12,3 +12,4 @@
 <!ELEMENT helyszin (#PCDATA)>
 <!ELEMENT oktato (#PCDATA)>
 <!ELEMENT szak (#PCDATA)> 
+]>
