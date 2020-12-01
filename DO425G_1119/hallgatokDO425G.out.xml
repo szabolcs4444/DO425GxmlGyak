@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <h2>Alkalmazott</h2>
+        <table border="2">
+            <tr bgcolor="green">
+                <th>ID</th><th>Keresztnev</th><th>Vezeteknev</th><th>Becenev</th><th>Fizetes</th>
+            </tr>
+            <tr>
+                <td>001</td><td>Istvan</td><td>Arvai</td><td>Arva</td><td>60000</td>
+            </tr>
+            <tr>
+                <td>024</td><td>Sara</td><td>Keszeg</td><td>keszi</td><td>45000</td>
+            </tr>
+            <tr>
+                <td>056</td><td>Gabor</td><td>Simon</td><td>simi</td><td>20000</td>
+            </tr>
+        </table>
+        <p1>ID</p1>
+        <p1>Keresztnev</p1>
+        <p1>Vezeteknev</p1>
+        <p1>Becenev</p1>
+        <p1>Fizetes</p1>
+        <br>
+        001IstvanArvaiArva60000
+        </br>
+        <br>
+        024SaraKeszegkeszi45000
+        </br>
+        <br>
+        056GaborSimonsimi20000
+        </br>
+    </body>
+</html>

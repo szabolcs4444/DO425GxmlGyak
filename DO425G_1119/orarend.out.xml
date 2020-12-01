@@ -1,0 +1,70 @@
+<html>
+    <body>
+        <h2>Orarend</h2>
+        <table border="1">
+            <tr bgcolor="green">
+                <th>Targy</th><th>Tipus</th><th>Idopont</th><th>Helyszin</th><th>Oktato</th><th>Szak</th>
+            </tr>
+            <tr>
+                <td>Szoftvertesztel&eacute;s</td><td>előad&aacute;s</td><td>H&eacute;tfő8
+								-
+								10</td><td>In/103 In I. em. 103</td><td> Tompa Tam&aacute;s</td><td>M&eacute;rn&ouml;kinformatikus</td>
+            </tr>
+            <tr>
+                <td> Mobil programoz&aacute;si alapok"</td><td>előad&aacute;s</td><td>H&eacute;tfő 11
+								-
+								13</td><td>In/101 In I.e. 101</td><td>"Ag&aacute;rdi Anita</td><td>M&eacute;rn&ouml;kinformatikus</td>
+            </tr>
+            <tr>
+                <td>Korszerű inform&aacute;ci&oacute;s tech</td><td>gyakorlat</td><td>H&eacute;tfő13
+								-
+								15</td><td>In/101 In. I.e.101</td><td> So&oacute;s R&oacute;bert</td><td>M&eacute;rn&ouml;kinformatikus</td>
+            </tr>
+            <tr>
+                <td>Oracle rendszergazda	</td><td>előad&aacute;s</td><td>H&eacute;tfő 15 
+								-
+								17</td><td>In/202 In II.em.202</td><td>Dr. Kov&aacute;cs L&aacute;szl&oacute;</td><td>M&eacute;rn&ouml;kinformatikus</td>
+            </tr>
+            <tr>
+                <td> Mobil programoz&aacute;si alapok</td><td>gyakorlat</td><td>H&eacute;tfő17
+								-
+								19</td><td>In/101 In I.e. 101</td><td>Ag&aacute;rdi Anita</td><td>M&eacute;rn&ouml;kinformatikus</td>
+            </tr>
+            <tr>
+                <td>Oracle rendszergazda	</td><td>gyakorlat</td><td>Kedd8
+								-
+								10</td><td>In/202 In II.em.202</td><td>Bulla D&aacute;vid</td><td>M&eacute;rn&ouml;kinformatikus</td>
+            </tr>
+            <tr>
+                <td>Korszerű inform&aacute;ci&oacute;s tech </td><td>előad&aacute;s</td><td>Kedd10
+								-
+								12</td><td>A1/220 A1 II.em.220</td><td>&Aacute;rvai L&aacute;szl&oacute;</td><td>M&eacute;rn&ouml;kinformatikus</td>
+            </tr>
+            <tr>
+                <td>Adatkezel&eacute;s XML-ben	</td><td>előad&aacute;s</td><td>Kedd12
+								-
+								14</td><td>XXXVII A3 A5 k&ouml;z&ouml;tt</td><td>Dr. Bednarik L&aacute;szl&oacute;</td><td>M&eacute;rn&ouml;kinformatikus</td>
+            </tr>
+            <tr>
+                <td>Idegennyelv 1 </td><td>előad&aacute;s</td><td>Kedd16
+								-
+								18</td><td>A1/11</td><td>P&aacute;sztor Krisztina</td><td>M&eacute;rn&ouml;kinformatikus</td>
+            </tr>
+            <tr>
+                <td>Integr&aacute;lt V&aacute;llalati Rendszerek </td><td>előad&aacute;s</td><td>Szerda12
+								-
+								14</td><td>A1/319</td><td>Dr. Samad Dadvandipour</td><td>M&eacute;rn&ouml;kinformatikus</td>
+            </tr>
+            <tr>
+                <td>Integr&aacute;lt V&aacute;llalati Rendszerek </td><td>gyakorlat</td><td>Szerda14
+								-
+								16</td><td>In/15</td><td>Dr. Bikfalvi P&eacute;ter</td><td>M&eacute;rn&ouml;kinformatikus</td>
+            </tr>
+            <tr>
+                <td>Adatkezel&eacute;s XML-ben </td><td>gyakorlat</td><td>Cs&uuml;t&ouml;rt&ouml;k12
+								-
+								14</td><td>In/103</td><td>Dr. Bednarik L&aacute;szl&oacute;</td><td>M&eacute;rn&ouml;kinformatikus</td>
+            </tr>
+        </table>
+    </body>
+</html>

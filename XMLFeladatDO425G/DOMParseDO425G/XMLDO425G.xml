@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Szallodak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaDO425G.xsd">
+	<szalloda ref_alkalmazott="135792CA" ref_szoba="100" ref_vendeg="123456AB" szalloda_adoszam="12345678-2-25">
+	    <nev>Teszt 1</nev>
+		<cim>
+			<irsz>3700</irsz>
+			<telepules>Kazincbarcika</telepules>
+			<utca>Építők utca</utca>
+			<hsz>44</hsz>
+		</cim>
+	<telefonszam>302345678</telefonszam>
+	</szalloda>
+
+	<szalloda ref_alkalmazott="246819MA" ref_szoba="101" ref_vendeg="123456AB" szalloda_adoszam="87654321-2-25">
+		<nev>Teszt 2</nev>
+		<cim>
+			<irsz>3519</irsz>
+			<telepules>Miskolc</telepules>
+			<utca>Teszt utca</utca>
+			<hsz>69</hsz>
+		</cim>
+		<telefonszam>202345678</telefonszam>
+	</szalloda>
+
+	<szalloda ref_alkalmazott="147259GB" ref_szoba="102" ref_vendeg="245246AB" szalloda_adoszam="54654754-2-25">
+		<nev>Teszt 3</nev>
+		<cim>
+			<irsz>4400</irsz>
+			<telepules>Nyíregyháza</telepules>
+			<utca>Dísz tér</utca>
+			<hsz>48</hsz>
+		</cim>
+		<telefonszam>702345678</telefonszam>
+	</szalloda>
+
+	<szoba ref_szalloda="12345678-2-25" szoba_ajtoszam="101">
+		<meret>42</meret>
+		<ar>31500</ar>
+		<tipus>superior</tipus>
+	</szoba>
+
+	<szoba ref_szalloda="12345678-2-25" szoba_ajtoszam="100">
+		<meret>18</meret>
+		<ar>15000</ar>
+		<tipus>stantard</tipus>
+	</szoba>
+
+	<szoba ref_szalloda="12345678-2-25" szoba_ajtoszam="102">
+		<meret>18</meret>
+		<ar>15000</ar>
+		<tipus>duplex</tipus>
+	</szoba>
+
+
+	<vendeg ref_szalloda="54654754-2-25" vendeg_szigsz="245246AB">
+		<nev>
+			<vendegnev>Nagy Tibor</vendegnev>
+		</nev>
+		<cim>
+			<irsz>3519</irsz>
+			<telepules>Miskolc</telepules>
+			<utca>Vadgalamb utca</utca>
+			<hsz>21</hsz>
+		</cim>
+		<telefonszam>309856543</telefonszam>
+	</vendeg>
+
+	<vendeg ref_szalloda="12345678-2-25" vendeg_szigsz="123456AB">
+		<nev>
+
+			<vendegnev>Kiss Pista</vendegnev>
+		</nev>
+		<cim>
+			<irsz>3515</irsz>
+			<telepules>Miskolc</telepules>
+			<utca>Egyetem</utca>
+			<hsz>1</hsz>
+		</cim>
+		<telefonszam>309876543</telefonszam>
+	</vendeg>
+
+	<vendeg ref_szalloda="12345678-2-25" vendeg_szigsz="654321AB">
+		<nev>
+			<vendegnev>Tóth Aladár</vendegnev>
+		</nev>
+
+		<cim>
+			<irsz>8000</irsz>
+			<telepules>Székesfehérvár</telepules>
+			<utca>Erdő utca</utca>
+			<hsz>140</hsz>
+		</cim>
+		<telefonszam>209876543</telefonszam>
+	</vendeg>
+
+	<alkalmazott alkalmazott_szigsz="135792CA" ref_szalloda="12345678-2-25">
+		<kor>23</kor>
+		<szuletesi_datum>
+			<ido>1997-02-12</ido>
+			<hely>Kazincbarcika</hely>
+		</szuletesi_datum>
+
+
+
+	</alkalmazott>
+	<alkalmazott alkalmazott_szigsz="246819MA" ref_szalloda="87654321-2-25">
+		<kor>38</kor>
+		<szuletesi_datum>
+			<ido>1982-12-12</ido>
+			<hely>Miskolc</hely>
+		</szuletesi_datum>
+
+
+
+	</alkalmazott>
+
+	<alkalmazott alkalmazott_szigsz="147259GB" ref_szalloda="54654754-2-25">
+		<kor>41</kor>
+		<szuletesi_datum>
+			<ido>1980-05-05</ido>
+			<hely>Győr</hely>
+		</szuletesi_datum>
+
+
+
+	</alkalmazott>
+
+	<vegzettsegek ref_szigsz="147259GB">
+		<vegzettseg>Erettsegi</vegzettseg>
+	</vegzettsegek>
+
+	<vegzettsegek ref_szigsz="246819MA">
+		<vegzettseg>Szakmunkás</vegzettseg>
+	</vegzettsegek>
+
+	<vegzettsegek ref_szigsz="135792CA">
+	    <vegzettseg>Egyetem</vegzettseg>
+	</vegzettsegek>
+
+	<dolgozik ref_szalloda="12345678-2-25" ref_szigsz="147259GB">
+	 <idotartam>8</idotartam>
+	</dolgozik>
+
+	<dolgozik ref_szalloda="87654321-2-25" ref_szigsz="246819MA">
+		<idotartam>6</idotartam>
+	</dolgozik>
+
+	<dolgozik ref_szalloda="54654754-2-25" ref_szigsz="135792CA">
+		<idotartam>12</idotartam>
+	</dolgozik>
+</Szallodak>
